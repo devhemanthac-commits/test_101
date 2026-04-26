@@ -10,7 +10,8 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('camera')
   const fileInputRef = useRef(null)
 
-  const API_URL = 'http://localhost:8000'
+  // API URL - set VITE_API_URL env var for production, defaults to localhost
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
   const processImage = async (imageData) => {
     setLoading(true)
