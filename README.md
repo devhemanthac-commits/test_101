@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧬 Silkworm Gender Classification Dashboard
 
 A real-time dashboard for classifying silkworm gender using live camera feeds or uploaded images. Built with React frontend and Python FastAPI backend.
@@ -221,3 +222,7 @@ For issues or questions:
 1. Check the troubleshooting section
 2. Review API documentation at `/docs`
 3. Check browser console for errors
+=======
+# test_101
+for test 
+>>>>>>> 2fb88d733cd880c100304383a7bf830cabdf8cea
